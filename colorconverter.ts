@@ -160,7 +160,7 @@ module colorConverter
     return (p1.x * p2.y - p1.y * p2.x);
   }
 
-  function isPointInTriangle(p : Point, triangle : Triangle) : bool {
+  function isPointInTriangle(p : Point, triangle : Triangle) : boolean {
     var red = triangle.r;
     var green = triangle.g;
     var blue = triangle.b;
